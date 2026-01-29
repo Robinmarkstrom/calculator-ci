@@ -1,4 +1,4 @@
-// script.js - UI-logik
+import { add, subtract, multiply, divide } from "./calculator.js";
 
 function calculate(operation) {
     const num1 = parseFloat(document.getElementById('num1').value);
